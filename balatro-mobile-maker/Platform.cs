@@ -119,7 +119,7 @@ internal class Platform
     public static string getGameSaveLocation()
     {
         if (isWindows)
-            return Environment.GetEnvironmentVariable("AppData") + "\\Balatro";
+            return Environment.GetEnvironmentVariable("AppData") + "\\Balatro-Mobile-Edition";
 
         //TODO: Test Linux location
         if (isLinux)
